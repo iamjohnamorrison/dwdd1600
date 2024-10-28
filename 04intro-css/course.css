@@ -19,6 +19,7 @@ header h1{
 header p{
     margin: 0;
     color: #56D4FF;
+    font-weight: bold;
     letter-spacing: 0.5px;
 }
 
@@ -68,7 +69,7 @@ main h2 {
 }
 
 main p {
-    color: #099ED1;
+    color: #024873;
     margin: 0 0 .3rem 0;
 }
 
@@ -78,7 +79,7 @@ main ol {
 }
 
 main dl dt {
-    color: #099Ed1;
+    color: #024873;
     font-weight: 700;
 }
 
