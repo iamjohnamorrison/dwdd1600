@@ -13,18 +13,18 @@ header {
 
 header h1{
     margin: 0;
-    color: #099Ed1;
+    color: #56D4FF;
 }
 
 header p{
     margin: 0;
-    color: #099Ed1;
+    color: #56D4FF;
     letter-spacing: 0.5px;
 }
 
 /* nav stuff goes here */
 nav{
-    background-color: #58DD1B;
+    background-color: #005F19;
 }
 
 nav ul{
@@ -37,7 +37,7 @@ nav ul{
 nav a {
     font-size: 1.1rem;
     text-decoration: none;
-    color: #024873;
+    color: #56D4FF;
     font-weight: 700;
     padding: 0.83rem 2rem;
     display: block;
@@ -119,12 +119,12 @@ main a:hover {
 footer {
     background-color: #666666;
     text-align: center;
-    color: #099Ed1;
+    color: #56D4FF;
     padding: 1rem 0;
     font-size: .8rem;
     
 }
 
 footer a {
-    color: #099Ed1;
+    color: #56D4FF;
 }
