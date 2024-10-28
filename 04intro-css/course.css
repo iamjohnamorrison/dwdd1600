@@ -39,13 +39,13 @@ nav a {
     text-decoration: none;
     color: #56D4FF;
     font-weight: 700;
-    padding: 0.83rem 2rem;
+    padding: 0.782rem 2rem;
     display: block;
 }
 
 nav li.active a {
     background-color: #005F19;
-    color: #58DD1B;
+    color: #56D4FF;
 }
 
 nav a:hover{
