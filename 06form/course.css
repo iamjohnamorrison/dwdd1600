@@ -1,0 +1,221 @@
+body {
+    font-family: 'Alatsi', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+}
+
+/* Header Stuff Here*/
+header {
+    background-color: #444444;
+    padding: 1rem 2vw;
+}
+
+header h1{
+    margin: 0;
+    color: #56D4FF;
+}
+
+header p{
+    margin: 0;
+    color: #56D4FF;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+/* nav stuff goes here */
+nav{
+    background-color: #005F19;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0;
+    display: flex;
+}
+
+nav a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #56D4FF;
+    font-weight: 700;
+    padding: 0.782rem 2rem;
+    display: block;
+}
+
+nav li.active a {
+    background-color: #024873;
+        color: #56D4FF;
+}
+
+nav a:hover{
+    color: white;
+}
+
+/* stuff for the main */
+
+main {
+    padding: 1rem 2vw;
+}
+
+main h1 {
+    color: #005F19;
+}
+
+main h2 {
+    color: #005F19;
+    margin-bottom: .2rem;
+}
+
+main p {
+    color: #024873;
+    margin: 0 0 .3rem 0;
+}
+
+main ol {
+    padding: .5rem 3vw;
+    background-color: #efefef;
+}
+
+main dl dt {
+    color: #024873;
+    font-weight: 700;
+}
+
+main dl dd {
+    color: #024873;
+    font-size: .9rem;
+}
+
+main ul {
+    list-style-type: circle;
+}
+
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+
+main address {
+    font-style: normal;
+    background-color: #099Ed1;
+    padding: .5rem;
+    width: 12.5rem;
+    border: 1px solid #024873;
+    border-radius: 0.5rem;
+}
+
+main a {
+    color: #024873;
+}
+
+main a:hover {
+    color: rgb(239,0,24);
+}
+
+figure.wrapped {
+    width: 30%;
+    margin: 0 0 0 2%;
+    float: right;
+}
+
+figure.wrapped img {
+    width: 100%;
+    height: auto;
+}
+
+figure.wrapped figcaption {
+    text-align: center;
+    font-size: .75rem;
+    color: #024873;
+}
+
+div.coursegallery figcaption{
+    text-align: center;
+    font-size: .9rem;
+    color: #56D4FF;
+    padding: .3rem 0;
+    background-color: #005F19; 
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+div.coursegallery figure{
+    margin: .5rem 2% 0 0;
+}
+
+div.coursegallery {
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.coursegallery img {
+    display: block;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.myForm fieldset {
+    border: 1px solid #005F19;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+}
+
+.myForm legend {
+    color: #005F19;
+    font-size: .8rem;
+}
+
+.myForm label {
+    margin: .5rem;
+}
+
+.myForm label, .myForm select, .myForm [type=text], .myForm [type=tel], .myForm textarea, .myForm [type=email] {
+    display: block;
+}
+
+.myForm [type=text], .myForm [type=tel], .myForm select, .myForm textarea, .myForm [type=email] {
+    border: solid 1px #888;   
+    padding: .3rem;
+    width: 250px;
+    border-radius: .3rem;
+    font-family: 'Alatsi', sans-serif;
+    font-weight: 200;
+}
+
+.myForm [type=email]{
+    background-color: rgba(51,156,53,0.1);
+}
+.myForm textarea {
+    height: 6rem;
+}
+
+.myForm :required {
+    background-color: rgba(51,156,53,0.1);
+}
+
+.myForm [type=submit] {
+    background-color: #005F19;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    color: white;
+    margin: 1rem 0 0 1vw;
+}
+
+/* Footer Stuff here */
+
+footer {
+    background-color: #444444;
+    text-align: center;
+    color: #56D4FF;
+    padding: 1rem 0;
+    font-size: .8rem;
+    clear: both;
+}
+
+footer a {
+    color: #56D4FF;
+}
